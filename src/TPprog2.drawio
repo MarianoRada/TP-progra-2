@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="BGD62SCd4SlIzhXcsPhD">
-    <mxGraphModel dx="2727" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,15 +44,15 @@
           <mxGeometry x="10" y="130" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c-k_OdhlWmI5xw33POUm-14" value="Teatro" style="swimlane;whiteSpace=wrap;html=1;fillStyle=auto;rounded=0;glass=0;shadow=0;swimlaneLine=1;startSize=20;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="80" y="-410" width="460" height="140" as="geometry">
+          <mxGeometry x="70" y="-410" width="470" height="140" as="geometry">
             <mxRectangle x="750" y="290" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c-k_OdhlWmI5xw33POUm-15" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;List&amp;lt;sector&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;sectores&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="c-k_OdhlWmI5xw33POUm-14" vertex="1">
           <mxGeometry x="7" y="30" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gz3MEblSSOQ2FDono_MR-12" value="+crearSede(&lt;span style=&quot;text-align: left;&quot;&gt;nombre,capacidadMax, direccion ,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;&amp;lt;sector, porcentaje&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;, ascientos)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="c-k_OdhlWmI5xw33POUm-14" vertex="1">
-          <mxGeometry x="5" y="80" width="450" height="30" as="geometry" />
+        <mxCell id="gz3MEblSSOQ2FDono_MR-12" value="+crearSede(&lt;span style=&quot;text-align: left;&quot;&gt;nombre,capacidadMax, direccion ,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;&amp;lt;sector, porcentaje&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;, filas , ascientos)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="c-k_OdhlWmI5xw33POUm-14" vertex="1">
+          <mxGeometry x="-10" y="80" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c-k_OdhlWmI5xw33POUm-16" value="Estadio" style="swimlane;whiteSpace=wrap;html=1;fillStyle=auto;rounded=0;glass=0;shadow=0;swimlaneLine=1;startSize=23;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="820" y="-520" width="180" height="85" as="geometry" />
@@ -88,8 +88,17 @@
         <mxCell id="c-k_OdhlWmI5xw33POUm-24" value="Sector" style="swimlane;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="430" y="-210" width="233" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="c-k_OdhlWmI5xw33POUm-54" value="&lt;div&gt;nombre Tupla&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;sector, porcentaje&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;int []&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[] ubicaciones&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="c-k_OdhlWmI5xw33POUm-24" vertex="1">
+        <mxCell id="c-k_OdhlWmI5xw33POUm-54" value="&lt;div&gt;-nombre Tupla&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;sector, porcentaje&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-int []&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[] ubicaciones&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="c-k_OdhlWmI5xw33POUm-24" vertex="1">
           <mxGeometry x="13" y="33" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cYa9Fw054hRIedTm2X27-2" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="c-k_OdhlWmI5xw33POUm-24" target="c-k_OdhlWmI5xw33POUm-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="75" as="sourcePoint" />
+            <mxPoint x="50" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYa9Fw054hRIedTm2X27-3" value="+crear ()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="c-k_OdhlWmI5xw33POUm-24">
+          <mxGeometry y="70" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c-k_OdhlWmI5xw33POUm-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.28;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" parent="1" source="c-k_OdhlWmI5xw33POUm-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
